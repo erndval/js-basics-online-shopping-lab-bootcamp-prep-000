@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var itemPrice
+  var itemPrice = Math.floor(Math.random() * Math.floor(100))
   var basket = {}
   
 }
