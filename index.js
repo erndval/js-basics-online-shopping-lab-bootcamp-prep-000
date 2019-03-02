@@ -13,8 +13,8 @@ function addToCart(item) {
   var itemName = item
   var itemPrice = Math.floor(Math.random() * Math.floor(100))
   var cartObj
-  cartObj[item] = itemPrice
-  cart = [..., {cartObj}]
+  cartObj[itemName] = itemPrice
+  cart = [..., cartObj]
   return `${item} has been added to your cart.`
 }
 
