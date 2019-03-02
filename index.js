@@ -29,7 +29,11 @@ function viewCart() {
 }
 
 function total() {
-  Object.keys
+  var totalArray = Object.keys(cart)
+  while (totalArray.length < 0) {
+    var totalAmount
+    
+  }
 }
 
 function removeFromCart(item) {
