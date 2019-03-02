@@ -37,6 +37,7 @@ function total() {
     totalAmount = totalAmount + parseInt(totalArray[i])
     i++
   }
+  return totalAmount
 }
 
 function removeFromCart(item) {
@@ -44,5 +45,9 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
+  if (cardNumber ) {
+  } else {
+  cart = []
+  return `Your total cost is $${totalAmount}, which will be charged to the card ${cardNumber}.`
+  }
 }
