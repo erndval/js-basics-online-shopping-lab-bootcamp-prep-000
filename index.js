@@ -34,7 +34,7 @@ function total() {
   var totalAmount
   var i = 0
   while (i < totalArray.length) {
-    totalArray[i]
+    parseInt(totalArray[i])
     i++
   }
 }
