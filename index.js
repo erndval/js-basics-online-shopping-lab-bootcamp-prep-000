@@ -32,10 +32,10 @@ function viewCart() {
 function total() {
   var totalArray = Object.keys(cart)
   var totalAmount
-  let i = totalArray.length
-  while (i < 0) {
-    
-    i--
+  var i = 0
+  while (i < totalArray.length) {
+    totalArray[i]
+    i++
   }
 }
 
