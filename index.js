@@ -21,7 +21,9 @@ function addToCart(item) {
 function viewCart() {
   var viewItem = []
   var viewItemPrice = []
-  for (var i = 0; i++)
+  for (var i = 0; i < cart.length; i++) {
+    
+  }
 }
 
 function total() {
