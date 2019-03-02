@@ -31,10 +31,10 @@ function viewCart() {
 
 function total() {
   var totalArray = Object.keys(cart)
-  var totalAmount
+  var totalAmount = 0
   var i = 0
   while (i < totalArray.length) {
-    parseInt(totalArray[i])
+    totalAmount = totalAmount + parseInt(totalArray[i])
     i++
   }
 }
