@@ -26,6 +26,7 @@ function viewCart() {
   for (var i = 0; i < cart.length; i++) {
     viewCartStatus.push(`${cart} at `)
   }
+  }
 }
 
 function total() {
@@ -34,7 +35,7 @@ function total() {
   let i = totalArray.length
   while (i < 0) {
     
-    
+    i--
   }
 }
 
