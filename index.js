@@ -12,16 +12,16 @@ function setCart(c) {
 function addToCart(item) {
   var itemName = item
   var itemPrice = Math.floor(Math.random() * Math.floor(100))
-  var cartObj
+  var cartObj = {}
   cartObj[itemName] = itemPrice
-  cart = [cart..., cartObj]
+  cart = [...cart, cartObj]
   return `${item} has been added to your cart.`
 }
 
 function viewCart() {
   var viewItem = []
   var viewItemPrice = []
-  // write your code here
+  let 
 }
 
 function total() {
