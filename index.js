@@ -20,7 +20,7 @@ function addToCart(item) {
 
 function viewCart() {
   var viewCartStatus = []
-  var viewCartKeys = 
+  var viewCartKeys = Object.Keys
   if (cart.length === 0) {
     return "Your shopping cart is empty."
   } else {
