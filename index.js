@@ -20,6 +20,7 @@ function addToCart(item) {
 
 function viewCart() {
   var viewCartStatus = []
+  var viewCartKeys = 
   if (cart.length === 0) {
     return "Your shopping cart is empty."
   } else {
