@@ -21,12 +21,12 @@ function addToCart(item) {
 function viewCart() {
   var viewCartStatus = []
   var viewCartKeys = Object.keys(cart)
-  var viewCartValues = Object.values
+  var viewCartValues = Object.values(cart)
   if (cart.length === 0) {
     return "Your shopping cart is empty."
   } else {
   for (var i = 0; i < cart.length; i++) {
-    viewCartStatus.push(`${cart} at `)
+    viewCartStatus.push(`${viewCartKeys} at ${viewCartValues`)
   }
   }
 }
